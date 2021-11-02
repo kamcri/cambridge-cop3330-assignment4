@@ -1,0 +1,71 @@
+@startuml
+Class App{
+ +void start()
+ +void main()
+}
+
+Class displayLists{
++ArrayList<List> Lists
++ArrayList<List> savedLists
++createList()
++displayList()
++addList()
++deleteList()
++editList()
++loadList()
++loadAll()
+-save()
+-saveAll()
+}
+
+Class Item{
+-String description
+-LocalDate dueDate
+-boolean completed {false}
++Item()
++getDescription()
++setDescription()
++getDueDate()
++setDueDate()
++isComplete()
++setComplete()
++toString()
+-Formatter()
+}
+
+Class List{
+-String title
+-ArrayList<Item> itemsList
++getTitle()
++setTitle()
++createList()
++addItem()
++deleteItem()
++editItem()
++markComplete()
++markIncomplete()
++displayAllItems()
++displayComplete()
++displayIncomplete()
++sortedList()
+}
+
+Class ListController{
++displayLists List
++List todoList
++defaultDisplay()
++addListButton()
++deleteListButton()
++editListButton()
++saveListButton()
++saveAllButton()
++loadListButton()
++addItemButton()
++markCompleteButton()
++markIncompleteButton()
++editItemButton(0
++deleteItemButton()
++showCompleteButton()
++showIncompleteButton()
+}
+@enduml
