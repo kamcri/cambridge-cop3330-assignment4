@@ -11,14 +11,15 @@ import java.time.LocalDate;
 //describing what an item is. setting description, due dates, and if it is complete
 
 public class Item {
-    private String description;
+
+   /* private String description;
     private LocalDate dueDate;
     private boolean completed = false;
 
     public Item(String description, LocalDate date, boolean completed){
-        /*this.setDueDate(date)
-        this.setDescription(description)
-        this.setComplete(completed)*/
+        //this.setDueDate(date)
+        //this.setDescription(description)
+        //this.setComplete(completed)
     }
 
     public void getDescription(){
@@ -46,17 +47,11 @@ public class Item {
     }
 
     private void Formatter(){
-        /*set date format to YYYY-MM-DD
-        formatter = DateTimeFormatter.ofPattern yyyy-MM-dd*/
-    }
-
-    //this will show the actual description instead of the reference
-    @Override
-    public String toString(){
-        //return description
-    }
-
+        //set date format to YYYY-MM-DD
+        //formatter = DateTimeFormatter.ofPattern yyyy-MM-dd
+    }*/
 }
+
 
 
 

@@ -10,7 +10,7 @@ public class List {
     private ArrayList<Item> itemsList; //List of object 'Item'
     private ArrayList<Item> sortedItemsList;
 
-    public void getTitle(){
+    /*public void getTitle(){
         //return title
     }
 
@@ -71,5 +71,5 @@ public class List {
         //On passed ArrayList, use comparator on getDueDate() from Item class
         //copy into sortedItemsList
         //return a sorted list
-    }
+    }*/
 }

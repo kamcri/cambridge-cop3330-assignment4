@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class ListController {
 
-    public displayLists List = new displayLists();
+    /*public displayLists List = new displayLists();
     public List todoList = new List();
     //declare a 'displayLists' object to use the methods
     //declare a 'list' object to use the methods?
@@ -90,6 +90,6 @@ public class ListController {
     @FXML
     public void defaultDisplay(){
         //todoList.displayAllItems()
-    }
+    }*/
 }
 
